@@ -251,23 +251,27 @@ export default function App() {
                   </motion.h2>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    Happy Birthday, my love. 🎂✨
+                    August 1st. Everyone’s busy celebrating with the usual flowers, sweet messages, and all those cliché little things. But you know me—I’ve never really been the type to follow clichés. So, if I’m going to say something to you, I’d rather mean every word of it.
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    Thank you for being the kindest, softest, and brightest part of my life. You make ordinary days feel special just by being yourself, and I hope you never forget how deeply loved you are.
+                    Having you in my life was never just about being able to call you my girlfriend. It’s about the way you somehow get through the parts of me that I usually keep buried—the darker, messier sides of me that even I don’t always know how to control. Somehow, you still manage to stay.
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    I didn't want this birthday gift to be just another website. I wanted it to hold a little piece of my heart, a place where I could put all the little things I feel for you but don't always know how to say out loud.
+                    You’re the exception to almost every rule I’ve ever made for myself. I might be stubborn. I might be selfish sometimes. I might expect more from you than I probably should. But if there’s one thing I’ll never be uncertain about, it’s this: I want you here.
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    I hope today brings you lots of smiles, peaceful moments, and everything that makes you happy. You deserve all the love, kindness, and happiness this world has to offer.
+                    So don’t get too comfortable thinking you can just walk away whenever things get difficult. You’re already a part of my world, and I’m not going to pretend I wouldn’t notice if you suddenly disappeared from it.
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    And if this page could do one more thing, I hope it could give you the biggest hug and remind you that no matter where we are, a part of my heart is always with you.
+                    I’ll annoy you, argue with you, tease you, and probably be way too stubborn for my own good. But I’ll also be here—choosing you, reminding you where you belong, and making sure you never have to question whether you matter to me. And whenever that little voice in your head tells you that you’re somehow not enough for me, I’ll be there to prove it wrong. Every single time.
+                  </motion.p>
+
+                  <motion.p className="letter-paragraph" variants={textLineVariants}>
+                    You don’t have to compete with some imaginary version of “better.” I chose you. I’m still choosing you. And I don’t need you to become someone else just to deserve the place you already have beside me.
                   </motion.p>
 
                   {/* Interactive Polaroid Photo inside the Letter */}
@@ -290,7 +294,11 @@ export default function App() {
                   </motion.div>
 
                   <motion.p className="letter-paragraph love-ending" variants={textLineVariants}>
-                    Happy Birthday, my love. I love you, always.
+                    Happy Girlfriend Day, sweetheart.
+                  </motion.p>
+
+                  <motion.p className="letter-paragraph" variants={textLineVariants}>
+                    And just so we’re clear—don’t mistake my patience for permission to leave whenever you feel like it. You’re already a part of my life, and I’m not the kind of person who lets go that easily.
                   </motion.p>
 
                   <motion.div className="letter-signature" variants={textLineVariants}>
