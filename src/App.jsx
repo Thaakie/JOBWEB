@@ -229,7 +229,7 @@ export default function App() {
                 <div className="letter-header">
                   <div className="metadata-row">
                     <span className="meta-tag">UNTUK: <span className="meta-text">Sabrina</span></span>
-                    <span className="meta-tag">DARI: <span className="meta-text">Arif (eji)</span></span>
+                    <span className="meta-tag">DARI: <span className="meta-text">someone you love</span></span>
                   </div>
                   <div className="love-stamp-badge">
                     <Heart className="mini-heart-icon" fill="currentColor" size={14} />
@@ -251,34 +251,53 @@ export default function App() {
                   </motion.h2>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    August 1st. Everyone’s busy celebrating with the usual flowers, sweet messages, and all those cliché little things. But you know me—I’ve never really been the type to follow clichés. So, if I’m going to say something to you, I’d rather mean every word of it.
+                    August 1st. everyone’s busy celebrating with the usual flowers, sweet messages, and all those cliché little things. but you know me i’ve never really been the type to follow clichés. so, if i’m going to say something to you, i’d rather mean every word of it.
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    Having you in my life was never just about being able to call you my girlfriend. It’s about the way you somehow get through the parts of me that I usually keep buried—the darker, messier sides of me that even I don’t always know how to control. Somehow, you still manage to stay.
+                    Having you in my life was never just about being able to call you my girlfriend. it’s about the way you somehow get through the parts of me that i usually keep buried—the darker, messier sides of me that even i don’t always know how to control. somehow, u still manage to stay.
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    You’re the exception to almost every rule I’ve ever made for myself. I might be stubborn. I might be selfish sometimes. I might expect more from you than I probably should. But if there’s one thing I’ll never be uncertain about, it’s this: I want you here.
+                    You’re the exception to almost every rule i’ve ever made for myself. i might be stubborn. i might be selfish sometimes. i might expect more from you than i probably should. but if there’s one thing I’ll never be uncertain about, it’s this: you're mine.
                   </motion.p>
 
-                  <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    So don’t get too comfortable thinking you can just walk away whenever things get difficult. You’re already a part of my world, and I’m not going to pretend I wouldn’t notice if you suddenly disappeared from it.
-                  </motion.p>
-
-                  <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    I’ll annoy you, argue with you, tease you, and probably be way too stubborn for my own good. But I’ll also be here—choosing you, reminding you where you belong, and making sure you never have to question whether you matter to me. And whenever that little voice in your head tells you that you’re somehow not enough for me, I’ll be there to prove it wrong. Every single time.
-                  </motion.p>
-
-                  <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    You don’t have to compete with some imaginary version of “better.” I chose you. I’m still choosing you. And I don’t need you to become someone else just to deserve the place you already have beside me.
-                  </motion.p>
-
-                  {/* Interactive Polaroid Photo inside the Letter */}
+                  {/* Interactive Polaroid Photo 1: Sabrina */}
                   <motion.div
-                    className="polaroid-wrapper"
+                    className="polaroid-wrapper polaroid-sabrina"
                     variants={textLineVariants}
-                    whileHover={{ scale: 1.05, rotate: 1 }}
+                    whileHover={{ scale: 1.05, rotate: 2 }}
+                    drag={!isMobile}
+                    dragConstraints={{ left: -10, right: 10, top: -10, bottom: 10 }}
+                    title={isMobile ? undefined : "Geser fotonya!"}
+                  >
+                    <div className="polaroid-frame">
+                      <div className="polaroid-image-container">
+                        <img src="/sasa.png" alt="Sabrina" className="polaroid-image" />
+                      </div>
+                      <div className="polaroid-caption">
+                        see? its cute when you smiled
+                      </div>
+                    </div>
+                  </motion.div>
+
+                  <motion.p className="letter-paragraph" variants={textLineVariants}>
+                    so don’t get too comfortable thinking u can just walk away whenever things get difficult. you’re already a part of my world, and i’m not going to pretend i wouldn’t notice if you suddenly disappeared from it.
+                  </motion.p>
+
+                  <motion.p className="letter-paragraph" variants={textLineVariants}>
+                    I’ll annoy you, argue with you, tease you, and probably be way too stubborn for my own good. but I’ll also be here—choosing you, reminding you where you belong, and making sure u never have to question whether u matter to me. and whenever that little voice in your head tells you that you’re somehow not enough for me, I’ll be there to prove it wrong. every single time.
+                  </motion.p>
+
+                  <motion.p className="letter-paragraph" variants={textLineVariants}>
+                    You don’t have to compete with some imaginary version of “better.” i chose you. i’m still choosing you. and I don’t need u to become someone else just to deserve the place you already have beside me.
+                  </motion.p>
+
+                  {/* Interactive Polaroid Photo 2: Us */}
+                  <motion.div
+                    className="polaroid-wrapper polaroid-us"
+                    variants={textLineVariants}
+                    whileHover={{ scale: 1.05, rotate: -2 }}
                     drag={!isMobile}
                     dragConstraints={{ left: -10, right: 10, top: -10, bottom: 10 }}
                     title={isMobile ? undefined : "Geser fotonya!"}
@@ -288,7 +307,7 @@ export default function App() {
                         <img src="/lovu.jpg" alt="Sabrina & Arif" className="polaroid-image" />
                       </div>
                       <div className="polaroid-caption">
-                       :3
+                        :3
                       </div>
                     </div>
                   </motion.div>
@@ -298,12 +317,12 @@ export default function App() {
                   </motion.p>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
-                    And just so we’re clear—don’t mistake my patience for permission to leave whenever you feel like it. You’re already a part of my life, and I’m not the kind of person who lets go that easily.
+                    And just so we’re clear—don’t mistake my patience for permission to leave whenever you feel like it. you are already a part of my life, and I’m not the kind of person who lets go that easily.
                   </motion.p>
 
                   <motion.div className="letter-signature" variants={textLineVariants}>
                     <span>Your boyfriend,</span>
-                    <span className="signature-name">eji</span>
+                    <span className="signature-name">me</span>
                   </motion.div>
                 </motion.div>
 

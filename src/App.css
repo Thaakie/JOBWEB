@@ -522,6 +522,14 @@ body {
   cursor: grab;
 }
 
+.polaroid-sabrina {
+  transform: rotate(2deg);
+}
+
+.polaroid-us {
+  transform: rotate(-2deg);
+}
+
 .polaroid-wrapper:active {
   cursor: grabbing;
 }
