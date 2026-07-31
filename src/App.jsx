@@ -246,7 +246,9 @@ export default function App() {
                   initial="hidden"
                   animate={isOpen ? "show" : "hidden"}
                 >
-  
+                  <motion.h2 className="letter-salutation" variants={textLineVariants}>
+                    Dear Sabrina,
+                  </motion.h2>
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
                     August 1st. Everyone’s busy celebrating with the usual flowers, sweet messages, and all those cliché little things. But you know me—I’ve never really been the type to follow clichés. So, if I’m going to say something to you, I’d rather mean every word of it.
