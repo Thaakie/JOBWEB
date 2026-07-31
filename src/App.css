@@ -348,7 +348,6 @@ body {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  height: calc(100% - 24px);
 }
 
 /* Close Icon inside Letter */
@@ -436,6 +435,7 @@ body {
 .letter-body {
   flex-grow: 1;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth momentum scrolling on iOS */
   padding-right: 10px;
   color: var(--ink-primary);
   display: flex;

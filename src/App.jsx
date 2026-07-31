@@ -275,9 +275,9 @@ export default function App() {
                     className="polaroid-wrapper"
                     variants={textLineVariants}
                     whileHover={{ scale: 1.05, rotate: 1 }}
-                    drag
+                    drag={!isMobile}
                     dragConstraints={{ left: -10, right: 10, top: -10, bottom: 10 }}
-                    title="Geser fotonya!"
+                    title={isMobile ? undefined : "Geser fotonya!"}
                   >
                     <div className="polaroid-frame">
                       <div className="polaroid-image-container">
