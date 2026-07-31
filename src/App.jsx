@@ -228,7 +228,7 @@ export default function App() {
                 {/* Letter Header */}
                 <div className="letter-header">
                   <div className="metadata-row">
-                    <span className="meta-tag">UNTUK: <span className="meta-text">Nama❤️</span></span>
+                    <span className="meta-tag">UNTUK: <span className="meta-text">Sabrina</span></span>
                     <span className="meta-tag">DARI: <span className="meta-text">Arif (eji)</span></span>
                   </div>
                   <div className="love-stamp-badge">
@@ -246,9 +246,7 @@ export default function App() {
                   initial="hidden"
                   animate={isOpen ? "show" : "hidden"}
                 >
-                  <motion.h2 className="letter-salutation" variants={textLineVariants}>
-                    Dear NAMA,
-                  </motion.h2>
+  
 
                   <motion.p className="letter-paragraph" variants={textLineVariants}>
                     August 1st. Everyone’s busy celebrating with the usual flowers, sweet messages, and all those cliché little things. But you know me—I’ve never really been the type to follow clichés. So, if I’m going to say something to you, I’d rather mean every word of it.
@@ -288,7 +286,7 @@ export default function App() {
                         <img src="/lovu.jpg" alt="Sabrina & Arif" className="polaroid-image" />
                       </div>
                       <div className="polaroid-caption">
-                        <span>Nama & Arif </span>
+                       :3
                       </div>
                     </div>
                   </motion.div>
@@ -316,7 +314,7 @@ export default function App() {
                       fill="none"
                     />
                     <text fontFamily="monospace" fontSize="8" fill="rgba(143, 35, 48, 0.15)" letterSpacing="1">
-                      <textPath href="#watermarkPath">MADE FOR NAMA • FOREVER &amp; ALWAYS • </textPath>
+                      <textPath href="#watermarkPath">MADE FOR SABRINA • FOREVER &amp; ALWAYS • </textPath>
                     </text>
                     <path
                       d="M 45 47 C 45 43, 55 43, 55 47 C 55 52, 50 54, 50 57 C 50 54, 45 52, 45 47 Z"
